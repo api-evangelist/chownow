@@ -1,0 +1,78 @@
+{
+    "name": "ChowNow",
+    "description": "ChowNow is an online food ordering system and marketing platform helping restaurants feed their hungry customers.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1038-chownow.jpg",
+    "tags": [
+        "api not found",
+        "have api",
+        "marketplaces",
+        "restaurants"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/chownow\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "ChowNow",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1038-chownow.jpg",
+            "humanURL": "https:\/\/www.chownow.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/chownow-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/chownow-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.ChowNow.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/www.chownow.com\/blog\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/chownow"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/chownow"
+        },
+        {
+            "type": "Email",
+            "url": "info@chownow.com"
+        },
+        {
+            "type": "Email",
+            "url": "press@chownow.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@chownow.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/ChowNow"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/ChowNow"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.chownow.com"
+        }
+    ]
+}
