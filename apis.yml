@@ -1,0 +1,77 @@
+aid: chownow
+name: ChowNow
+description: >-
+  ChowNow is a Playa Vista, Los Angeles-based restaurant technology company
+  providing commission-free online ordering, branded mobile apps, marketing
+  tools, and operational software purpose-built for independent restaurants.
+  Founded in 2011, ChowNow powers ordering websites, native iOS/Android apps,
+  QR-code dine-in ordering, catering, email and SMS marketing, a rewards
+  program, Flex Delivery, order aggregation, and centralized menu management
+  for 20,000+ restaurants. The platform integrates with 20+ point-of-sale
+  systems including Toast, Square, Revel, Clover, Lightspeed, Heartland Genius,
+  Skytab, and PosiTouch, and syndicates restaurant menus through a Discovery
+  Network spanning Google, Apple Maps, Yelp, and other channels, with optional
+  hand-off to DoorDash, UberEats, and Grubhub for last-mile delivery. ChowNow's
+  business model is flat-fee software-as-a-service for restaurants rather than
+  per-order commissions, and the company does not publish a public developer
+  API, SDK, or open developer portal; its GitHub presence consists primarily
+  of forks of internal Python/JavaScript tooling and archived libraries.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Restaurants
+  - Online Ordering
+  - Food And Beverage
+  - Restaurant Technology
+  - Point Of Sale
+  - Delivery
+  - Catering
+  - Marketing
+  - Mobile Apps
+  - Independent Restaurants
+  - Commission Free
+url: https://raw.githubusercontent.com/api-evangelist/chownow/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://get.chownow.com
+  - type: Marketplace
+    url: https://www.chownow.com
+  - type: Products
+    url: https://get.chownow.com/products/
+  - type: Integrations
+    url: https://get.chownow.com/integrations/all/
+  - type: Pricing
+    url: https://get.chownow.com/pricing/
+  - type: Demo
+    url: https://get.chownow.com/demo/
+  - type: Blog
+    url: https://get.chownow.com/blog/
+  - type: Support
+    url: https://support.chownow.com
+  - type: About
+    url: https://get.chownow.com/about/
+  - type: Careers
+    url: https://chownow.com/careers
+  - type: PartnerProgram
+    url: https://get.chownow.com/affiliates/partner-signup/
+  - type: Referral
+    url: https://get.chownow.com/refer-a-restaurant/
+  - type: GitHub
+    url: https://github.com/ChowNow
+  - type: Twitter
+    url: https://twitter.com/ChowNow
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/chownow
+  - type: Facebook
+    url: https://www.facebook.com/ChowNow
+  - type: Instagram
+    url: https://www.instagram.com/chownow
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
