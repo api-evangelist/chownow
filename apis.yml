@@ -14,8 +14,13 @@ description: >-
   hand-off to DoorDash, UberEats, and Grubhub for last-mile delivery. ChowNow's
   business model is flat-fee software-as-a-service for restaurants rather than
   per-order commissions, and the company does not publish a public developer
-  API, SDK, or open developer portal; its GitHub presence consists primarily
-  of forks of internal Python/JavaScript tooling and archived libraries.
+  API, SDK, OpenAPI specification, webhooks reference, or open developer portal.
+  Third-party integration is handled through pre-built connectors managed inside
+  the restaurant dashboard and a private partnerships program; prospective POS,
+  delivery, and technology partners apply through a partnerships form rather than
+  self-serve API documentation. The company's public GitHub presence consists
+  primarily of forks of open-source Python/JavaScript tooling and archived
+  internal libraries, with no SDK, client library, or specification repositories.
 type: Index
 position: Provider
 access: 3rd-Party
@@ -34,44 +39,139 @@ tags:
   - Commission Free
 url: https://raw.githubusercontent.com/api-evangelist/chownow/refs/heads/main/apis.yml
 created: '2026-05-25'
-modified: '2026-05-25'
+modified: '2026-06-02'
 specificationVersion: '0.20'
 apis: []
 common:
-  - type: Website
+  - type: Portal
+    title: Website
     url: https://get.chownow.com
   - type: Marketplace
     url: https://www.chownow.com
-  - type: Products
+  - type: Resources
+    title: Products
     url: https://get.chownow.com/products/
   - type: Integrations
     url: https://get.chownow.com/integrations/all/
   - type: Pricing
     url: https://get.chownow.com/pricing/
-  - type: Demo
+  - type: Plans
+    url: plans/chownow-plans-pricing.yml
+  - type: Resources
+    title: Demo
     url: https://get.chownow.com/demo/
   - type: Blog
     url: https://get.chownow.com/blog/
   - type: Support
     url: https://support.chownow.com
-  - type: About
+  - type: Resources
+    title: About
     url: https://get.chownow.com/about/
-  - type: Careers
+  - type: Resources
+    title: Careers
     url: https://chownow.com/careers
-  - type: PartnerProgram
+  - type: Partners
+    title: Partner Program
     url: https://get.chownow.com/affiliates/partner-signup/
-  - type: Referral
+  - type: Resources
+    title: Refer A Restaurant
     url: https://get.chownow.com/refer-a-restaurant/
-  - type: GitHub
+  - type: GitHubOrganization
     url: https://github.com/ChowNow
-  - type: Twitter
+  - type: X
     url: https://twitter.com/ChowNow
   - type: LinkedIn
     url: https://www.linkedin.com/company/chownow
-  - type: Facebook
+  - type: Resources
+    title: Facebook
     url: https://www.facebook.com/ChowNow
-  - type: Instagram
+  - type: Resources
+    title: Instagram
     url: https://www.instagram.com/chownow
+  - type: Features
+    data:
+      - name: Online Ordering
+        description: >-
+          Commission-free direct online ordering for restaurant websites,
+          replacing per-order marketplace commissions with flat-fee SaaS.
+      - name: Branded Mobile Apps
+        description: >-
+          Custom-branded native iOS and Android ordering apps published under
+          the restaurant's own identity.
+      - name: Website Builder
+        description: Restaurant website creation with integrated direct ordering.
+      - name: Marketplace
+        description: >-
+          ChowNow's aggregated consumer ordering marketplace that surfaces
+          member restaurants to diners.
+      - name: Discovery Network
+        description: >-
+          Menu and ordering syndication across Google, Apple Maps, Yelp,
+          Tripadvisor, Snap, and other discovery channels.
+      - name: QR Code Dine-In Ordering
+        description: Scan-to-order experience for on-premise dine-in service.
+      - name: Catering
+        description: Specialized catering and large-order management.
+      - name: Email And Text Marketing
+        description: >-
+          Customer communication campaigns with contact slots and email/SMS
+          credits scaled by plan tier.
+      - name: Rewards Program
+        description: Customer loyalty and rewards program to drive repeat ordering.
+      - name: Flex Delivery
+        description: >-
+          Flexible last-mile delivery with optional hand-off to DoorDash,
+          UberEats, and Grubhub, billed per delivery order.
+      - name: Order Aggregation
+        description: >-
+          Consolidation of orders from multiple ordering channels into a single
+          stream sent to the POS or printer.
+      - name: Advanced Reporting
+        description: Business analytics, payment insights, and operational reporting.
+      - name: POS Integrations
+        description: >-
+          Pre-built connectors to 20+ point-of-sale systems for direct order
+          injection.
+  - type: UseCases
+    data:
+      - name: Commission-Free Direct Ordering
+        description: >-
+          Independent restaurants take online orders on their own site and apps
+          without paying per-order commissions to marketplaces.
+      - name: Owning The Customer Relationship
+        description: >-
+          Restaurants retain customer contact data and use built-in marketing
+          to drive repeat business rather than renting access from aggregators.
+      - name: Unifying Multi-Channel Orders
+        description: >-
+          Order aggregation routes web, app, dine-in QR, and third-party
+          delivery orders into one POS or printer workflow.
+      - name: Expanding Discovery Reach
+        description: >-
+          Syndicating menus and ordering through Google, Apple Maps, and Yelp
+          to capture demand without ceding margin.
+      - name: Adding Delivery Without Commission Lock-In
+        description: >-
+          Using Flex Delivery to offer last-mile fulfillment on a per-order fee
+          basis instead of marketplace commission tiers.
+  - type: Integrations
+    data:
+      - name: Point Of Sale Systems
+        description: >-
+          Auphan, Brink, Clover Connect, Curv, Dinerware, EPOSnow, Givex,
+          Genius for Restaurants, InTouch POS, Lavu, Lightspeed, Maitre'D,
+          Oracle MICROS, PixelPoint, POSitouch, Revel, Silverware, Skytab,
+          Square, Stream, Toast, Universal POS, Verona, and Volante.
+      - name: Delivery Apps
+        description: DoorDash, Grubhub, Skip, and Uber Eats for last-mile delivery hand-off.
+      - name: Discovery Networks
+        description: Apple Maps, Google, Snap, Tripadvisor, and Yelp.
+      - name: Printers And KDS
+        description: Epson and Star Micronics receipt printers and kitchen display systems.
+      - name: Payments
+        description: >-
+          Card processing through ChowNow's transaction-fee model, with payment
+          insights surfaced via Stripe.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

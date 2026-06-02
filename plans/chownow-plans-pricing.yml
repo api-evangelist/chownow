@@ -1,0 +1,288 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: ChowNow
+providerId: chownow
+created: '2026-06-02'
+modified: '2026-06-02'
+reconciled: true
+tags:
+  - Restaurants
+  - Online Ordering
+  - Restaurant Technology
+  - Commission Free
+  - Subscription
+description: >-
+  ChowNow prices its restaurant ordering platform as a flat-fee software
+  subscription rather than per-order commission. Three subscription tiers
+  (Launch, Grow, Elevate) are offered with annual and monthly billing options
+  that differ by included marketing contact slots and email/SMS credits while
+  sharing the same core ordering, marketing, operations, fraud protection, POS
+  integration, and 24/7 support feature set. A one-time setup fee, a flat
+  per-order transaction fee (2.95% + $0.29), an optional Apple developer fee for
+  branded mobile apps, optional printer equipment, and a per-order Flex Delivery
+  fee are layered on top of the subscription. ChowNow does not publish a public
+  developer API, so these plans describe the commercial restaurant SaaS offering
+  rather than API metering. Prices reflect the public pricing page and may vary
+  by promotion and region.
+sources:
+  - https://get.chownow.com/pricing/
+  - https://get.chownow.com/products/
+plans:
+  - id: chownow-launch
+    name: Launch
+    type: subscription
+    description: >-
+      Entry tier with the complete ordering suite, basic marketing, and 500
+      marketing contact slots.
+    entries:
+      - label: Subscription (Annual)
+        name: subscription_annual
+        type: subscription
+        metric: month
+        limit: -1
+        timeFrame: year
+        geo: US
+        unit: '1'
+        price: 'starting at $229/year'
+        userMultiplied: false
+      - label: Subscription (Monthly)
+        name: subscription_monthly
+        type: subscription
+        metric: month
+        limit: -1
+        timeFrame: month
+        geo: US
+        unit: '1'
+        price: '$249/month'
+        userMultiplied: false
+      - label: Setup Fee
+        name: setup_fee
+        type: flat
+        metric: varies
+        limit: 1
+        timeFrame: usage
+        geo: US
+        unit: '1'
+        price: '$119-$499'
+        userMultiplied: false
+      - label: Transaction Fee
+        name: transaction_fee
+        type: metered
+        metric: transaction
+        limit: -1
+        timeFrame: usage
+        geo: US
+        unit: '1'
+        price: '2.95% + $0.29'
+        userMultiplied: false
+      - label: Marketing Contact Slots
+        name: marketing_contacts
+        type: quota
+        metric: varies
+        limit: 500
+        timeFrame: month
+        geo: US
+        unit: '1'
+        price: included
+        userMultiplied: false
+    elements:
+      - name: Online Ordering Suite
+      - name: Branded Mobile Apps
+      - name: Marketing Tools
+      - name: Operations Support
+      - name: Fraud Protection
+      - name: POS Integrations
+      - name: 24/7 Customer Support
+  - id: chownow-grow
+    name: Grow
+    type: subscription
+    description: >-
+      Mid tier adding higher marketing capacity with 2,000 contacts and 2,000
+      email/SMS credits across every channel.
+    entries:
+      - label: Subscription (Annual)
+        name: subscription_annual
+        type: subscription
+        metric: month
+        limit: -1
+        timeFrame: year
+        geo: US
+        unit: '1'
+        price: 'starting at $319/year'
+        userMultiplied: false
+      - label: Subscription (Monthly)
+        name: subscription_monthly
+        type: subscription
+        metric: month
+        limit: -1
+        timeFrame: month
+        geo: US
+        unit: '1'
+        price: '$349/month'
+        userMultiplied: false
+      - label: Setup Fee
+        name: setup_fee
+        type: flat
+        metric: varies
+        limit: 1
+        timeFrame: usage
+        geo: US
+        unit: '1'
+        price: '$119-$499'
+        userMultiplied: false
+      - label: Transaction Fee
+        name: transaction_fee
+        type: metered
+        metric: transaction
+        limit: -1
+        timeFrame: usage
+        geo: US
+        unit: '1'
+        price: '2.95% + $0.29'
+        userMultiplied: false
+      - label: Marketing Contact Slots
+        name: marketing_contacts
+        type: quota
+        metric: varies
+        limit: 2000
+        timeFrame: month
+        geo: US
+        unit: '1'
+        price: included
+        userMultiplied: false
+      - label: Email/SMS Credits
+        name: messaging_credits
+        type: quota
+        metric: varies
+        limit: 2000
+        timeFrame: month
+        geo: US
+        unit: '1'
+        price: included
+        userMultiplied: false
+    elements:
+      - name: Online Ordering Suite
+      - name: Branded Mobile Apps
+      - name: Email And Text Marketing
+      - name: Operations Support
+      - name: Fraud Protection
+      - name: POS Integrations
+      - name: 24/7 Customer Support
+  - id: chownow-elevate
+    name: Elevate
+    type: subscription
+    description: >-
+      Top tier built to scale with 5,000 marketing contacts and 5,000 email/SMS
+      credits.
+    entries:
+      - label: Subscription (Annual)
+        name: subscription_annual
+        type: subscription
+        metric: month
+        limit: -1
+        timeFrame: year
+        geo: US
+        unit: '1'
+        price: 'starting at $409/year'
+        userMultiplied: false
+      - label: Subscription (Monthly)
+        name: subscription_monthly
+        type: subscription
+        metric: month
+        limit: -1
+        timeFrame: month
+        geo: US
+        unit: '1'
+        price: '$449/month'
+        userMultiplied: false
+      - label: Setup Fee
+        name: setup_fee
+        type: flat
+        metric: varies
+        limit: 1
+        timeFrame: usage
+        geo: US
+        unit: '1'
+        price: '$119-$499'
+        userMultiplied: false
+      - label: Transaction Fee
+        name: transaction_fee
+        type: metered
+        metric: transaction
+        limit: -1
+        timeFrame: usage
+        geo: US
+        unit: '1'
+        price: '2.95% + $0.29'
+        userMultiplied: false
+      - label: Marketing Contact Slots
+        name: marketing_contacts
+        type: quota
+        metric: varies
+        limit: 5000
+        timeFrame: month
+        geo: US
+        unit: '1'
+        price: included
+        userMultiplied: false
+      - label: Email/SMS Credits
+        name: messaging_credits
+        type: quota
+        metric: varies
+        limit: 5000
+        timeFrame: month
+        geo: US
+        unit: '1'
+        price: included
+        userMultiplied: false
+    elements:
+      - name: Online Ordering Suite
+      - name: Branded Mobile Apps
+      - name: Email And Text Marketing
+      - name: Rewards Program
+      - name: Advanced Reporting
+      - name: Operations Support
+      - name: Fraud Protection
+      - name: POS Integrations
+      - name: 24/7 Customer Support
+  - id: chownow-add-ons
+    name: Add-Ons And Equipment
+    type: pay-as-you-go
+    description: >-
+      Optional fees and equipment layered on top of any subscription tier.
+    entries:
+      - label: Flex Delivery
+        name: flex_delivery
+        type: metered
+        metric: transaction
+        limit: -1
+        timeFrame: usage
+        geo: US
+        unit: '1'
+        price: '$7.98 per order'
+        userMultiplied: false
+      - label: Apple Developer Fee (Branded App)
+        name: apple_developer_fee
+        type: flat
+        metric: varies
+        limit: 1
+        timeFrame: year
+        geo: US
+        unit: '1'
+        price: '$99/year'
+        userMultiplied: false
+      - label: Printer Equipment
+        name: printer_equipment
+        type: flat
+        metric: varies
+        limit: 1
+        timeFrame: usage
+        geo: US
+        unit: '1'
+        price: '$250-$420'
+        userMultiplied: false
+    elements:
+      - name: Flex Delivery
+      - name: Branded Mobile Apps
+      - name: Printers And KDS
