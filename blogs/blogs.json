@@ -2,13 +2,14 @@
   "repo": "chownow",
   "feeds": [
     {
-      "source": "https://get.chownow.com/blog/",
-      "feed_url": "",
+      "source": "https://get.chownow.com/demo/",
+      "feed_url": "https://get.chownow.com/demo/",
+      "title": "",
       "saved": 0,
-      "method": "agent-scrape"
+      "method": "none"
     }
   ],
-  "post_count": 4,
-  "fetched": "2026-06-27T12:32:40Z",
-  "agent_pulled": "2026-06-27"
+  "post_count": 9,
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04"
 }
