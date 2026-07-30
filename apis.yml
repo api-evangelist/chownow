@@ -22,9 +22,21 @@ description: >-
   primarily of forks of open-source Python/JavaScript tooling and archived
   internal libraries, with no SDK, client library, or specification repositories.
 type: Index
+accessModel:
+  pricing: paid
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Paid
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 position: Provider
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chownow.png
 tags:
   - Restaurants
   - Online Ordering
