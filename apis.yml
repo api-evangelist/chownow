@@ -22,6 +22,17 @@ description: >-
   primarily of forks of open-source Python/JavaScript tooling and archived
   internal libraries, with no SDK, client library, or specification repositories.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
