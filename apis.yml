@@ -78,6 +78,8 @@ modified: '2026-06-02'
 specificationVersion: '0.23'
 apis: []
 common:
+  - type: Website
+    url: https://www.chownow.com/
   - type: DomainSecurity
     url: security/chownow-domain-security.yml
   - type: Portal
