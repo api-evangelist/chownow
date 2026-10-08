@@ -291,3 +291,60 @@ plans:
       - name: Flex Delivery
       - name: Branded Mobile Apps
       - name: Printers And KDS
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  - subscription
+  units:
+  - negotiated
+  - period
+  - transaction
+  plans:
+  - name: Launch
+    access: other
+    model: subscription
+    model_how: stated
+    units:
+    - negotiated
+    - period
+    - transaction
+    periods:
+    - month
+    - per-use
+    - year
+  - name: Grow
+    access: other
+    model: subscription
+    model_how: stated
+    units:
+    - negotiated
+    - period
+    - transaction
+    periods:
+    - month
+    - per-use
+    - year
+  - name: Elevate
+    access: other
+    model: subscription
+    model_how: stated
+    units:
+    - negotiated
+    - period
+    - transaction
+    periods:
+    - month
+    - per-use
+    - year
+  - name: Add-Ons And Equipment
+    access: other
+    model: metered
+    model_how: stated
+    units:
+    - negotiated
+    - transaction
+    periods:
+    - per-use
+    - year
