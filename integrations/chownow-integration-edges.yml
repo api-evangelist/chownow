@@ -1,0 +1,34 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- https://www.chownow.com/integrations/
+- toast/integrations/toast-integration-edges.yml
+marketplace_apps:
+- marketplace: own
+  channel: partner-built
+  app: chownow
+  url: https://www.chownow.com/integrations/
+  app_count: null
+  adapter: sweep-restaurant-pos.py:unreadable
+  listed: 0
+  status: not-machine-readable (TLS handshake refused to non-browser clients)
+edges:
+- partner_name: Toast (own)
+  partner: toast
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://pos.toasttab.com/partners/directory/chownow
+  mirror_of: toast/integrations/toast-integration-edges.yml
+  apps:
+  - ChowNow
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Marketing & CRM
+source:
+- toast/integrations/toast-integration-edges.yml
