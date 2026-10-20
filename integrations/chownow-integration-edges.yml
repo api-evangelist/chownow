@@ -1,8 +1,16 @@
-generated: '2026-10-14'
+generated: '2026-10-20'
 method: searched
+source:
+- toast/integrations/toast-integration-edges.yml
+- https://www.chownow.com/integrations/
 checked:
 - https://www.chownow.com/integrations/
 - toast/integrations/toast-integration-edges.yml
+- https://composio.dev/toolkits/chownow
+- https://monid.ai/tools/chownow
+- https://n8n.io/integrations/chownow/
+- https://zapier.com/apps/chownow/integrations
+summary: null
 marketplace_apps:
 - marketplace: own
   channel: partner-built
@@ -30,5 +38,4 @@ edges:
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
   category: Marketing & CRM
-source:
-- toast/integrations/toast-integration-edges.yml
+templates: []
