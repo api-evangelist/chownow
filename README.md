@@ -1,4 +1,4 @@
-# ChowNow (chownow)
+# ChowNow
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,86 +66,87 @@
 
 ChowNow is a Playa Vista, Los Angeles-based restaurant technology company providing commission-free online ordering, branded mobile apps, marketing tools, and operational software purpose-built for independent restaurants. Founded in 2011, ChowNow powers ordering websites, native iOS/Android apps, QR-code dine-in ordering, catering, email and SMS marketing, a rewards program, Flex Delivery, order aggregation, and centralized menu management for 20,000+ restaurants. The platform integrates with 20+ point-of-sale systems including Toast, Square, Revel, Clover, Lightspeed, Heartland Genius, Skytab, and PosiTouch, and syndicates restaurant menus through a Discovery Network spanning Google, Apple Maps, Yelp, and other channels, with optional hand-off to DoorDash, UberEats, and Grubhub for last-mile delivery. ChowNow's business model is flat-fee software-as-a-service for restaurants rather than per-order commissions, and the company does not publish a public developer API, SDK, OpenAPI specification, webhooks reference, or open developer portal. Third-party integration is handled through pre-built connectors managed inside the restaurant dashboard and a private partnerships program; prospective POS, delivery, and technology partners apply through a partnerships form rather than self-serve API documentation. The company's public GitHub presence consists primarily of forks of open-source Python/JavaScript tooling and archived internal libraries, with no SDK, client library, or specification repositories.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/chownow/refs/heads/main/apis.yml)
+**Areas:** Restaurant · Online Ordering · Food and Beverage · Restaurant Technology · Point-of-Sale · Delivery · Catering · Marketing · Mobile App · Independent Restaurants · Commission-Free
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## ChowNow on APIs.io
 
-## Tags:
+Everything profiled for ChowNow is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chownow/](https://apis.io/providers/chownow/)** — or go straight to one of the APIs or properties below.
 
- - Restaurants, Online Ordering, Food And Beverage, Restaurant Technology, Point Of Sale, Delivery, Catering, Marketing, Mobile Apps, Independent Restaurants, Commission Free
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-25
-- **Modified:** 2026-06-02
+#### Security (1)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Website](https://get.chownow.com)
-- [Marketplace](https://www.chownow.com)
-- [Products](https://get.chownow.com/products/)
-- [Integrations](https://get.chownow.com/integrations/all/)
+- [Chownow Domain Security](https://apis.io/security/chownow/chownow-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Chownow Plans Pricing](https://apis.io/plans/chownow/chownow-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.chownow.com/)
 - [Pricing](https://get.chownow.com/pricing/)
-- [Plans](plans/chownow-plans-pricing.yml)
-- [Demo](https://get.chownow.com/demo/)
-- [Blog](https://get.chownow.com/blog/)
 - [Support](https://support.chownow.com)
-- [About](https://get.chownow.com/about/)
-- [Careers](https://chownow.com/careers)
-- [Partner Program](https://get.chownow.com/affiliates/partner-signup/)
-- [Refer A Restaurant](https://get.chownow.com/refer-a-restaurant/)
-- [GitHub Organization](https://github.com/ChowNow)
-- [X](https://twitter.com/ChowNow)
-- [LinkedIn](https://www.linkedin.com/company/chownow)
-- [Facebook](https://www.facebook.com/ChowNow)
-- [Instagram](https://www.instagram.com/chownow)
+- [Blog](https://get.chownow.com/blog/)
+- [GitHub](https://github.com/ChowNow)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Online Ordering | Commission-free direct online ordering for restaurant websites, replacing per-order marketplace commissions with flat-fee SaaS. |
-| Branded Mobile Apps | Custom-branded native iOS and Android ordering apps published under the restaurant's own identity. |
-| Website Builder | Restaurant website creation with integrated direct ordering. |
-| Marketplace | ChowNow's aggregated consumer ordering marketplace that surfaces member restaurants to diners. |
-| Discovery Network | Menu and ordering syndication across Google, Apple Maps, Yelp, Tripadvisor, Snap, and other discovery channels. |
-| QR Code Dine-In Ordering | Scan-to-order experience for on-premise dine-in service. |
-| Catering | Specialized catering and large-order management. |
-| Email And Text Marketing | Customer communication campaigns with contact slots and email/SMS credits scaled by plan tier. |
-| Rewards Program | Customer loyalty and rewards program to drive repeat ordering. |
-| Flex Delivery | Flexible last-mile delivery with optional hand-off to DoorDash, UberEats, and Grubhub, billed per delivery order. |
-| Order Aggregation | Consolidation of orders from multiple ordering channels into a single stream sent to the POS or printer. |
-| Advanced Reporting | Business analytics, payment insights, and operational reporting. |
-| POS Integrations | Pre-built connectors to 20+ point-of-sale systems for direct order injection. |
+**Kin Score 9.8** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Commission-Free Direct Ordering | Independent restaurants take online orders on their own site and apps without paying per-order commissions to marketplaces. |
-| Owning The Customer Relationship | Restaurants retain customer contact data and use built-in marketing to drive repeat business rather than renting access from aggregators. |
-| Unifying Multi-Channel Orders | Order aggregation routes web, app, dine-in QR, and third-party delivery orders into one POS or printer workflow. |
-| Expanding Discovery Reach | Syndicating menus and ordering through Google, Apple Maps, and Yelp to capture demand without ceding margin. |
-| Adding Delivery Without Commission Lock-In | Using Flex Delivery to offer last-mile fulfillment on a per-order fee basis instead of marketplace commission tiers. |
+**Agent readiness 0.0** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Point Of Sale Systems | Auphan, Brink, Clover Connect, Curv, Dinerware, EPOSnow, Givex, Genius for Restaurants, InTouch POS, Lavu, Lightspeed, Maitre'D, Oracle MICROS, PixelPoint, POSitouch, Revel, Silverware, Skytab, Square, Stream, Toast, Universal POS, Verona, and Volante. |
-| Delivery Apps | DoorDash, Grubhub, Skip, and Uber Eats for last-mile delivery hand-off. |
-| Discovery Networks | Apple Maps, Google, Snap, Tripadvisor, and Yelp. |
-| Printers And KDS | Epson and Star Micronics receipt printers and kitchen display systems. |
-| Payments | Card processing through ChowNow's transaction-fee model, with payment insights surfaced via Stripe. |
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Plans
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/chownow/](https://apis.io/providers/chownow/).
 
-Commercial pricing for the ChowNow restaurant platform, captured using API Commons Plans 0.1.
+## How this profile is made
 
-- [ChowNow Plans And Pricing](plans/chownow-plans-pricing.yml) — Launch, Grow, and Elevate subscription tiers plus add-ons and equipment fees
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Maintainers
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ChowNow: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**FN:** Kin Lane
+## Open an issue
 
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chownow/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
